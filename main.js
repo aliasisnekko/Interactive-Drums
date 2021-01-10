@@ -9,11 +9,16 @@ function handleClick(buttonInnerHTML) { //this function triggers sound onclick
 
     makeSound(buttonInnerHTML);
 
+    buttonAnimation(buttonInnerHTML);
 
 }
 
 document.addEventListener('keydown', function(event) { //this adds an event listerner for keypresses
+ 
     makeSound(event.key); //this calls the below func when the key is pressed
+    
+    buttonAnimation(event.key);
+    
 });
 
 function makeSound(key) {
@@ -49,4 +54,12 @@ function makeSound(key) {
         default: //like else statement,  usually never used
             break;
     }
+}
+
+function buttonAnimation(currentKey) {
+    var activeButton = document.querySelector('.' + currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout(function() {
+        activeButton.classList.remove("pressed");
+    }, 100);
 }
