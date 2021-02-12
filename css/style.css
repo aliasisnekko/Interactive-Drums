@@ -14,7 +14,7 @@ h1 {
 h2 {
     color: #30475e;
     font-family: 'Lobster', cursive;
-    padding-top: 66px;
+    padding-top: 16px;
 }
 
 footer {
@@ -23,35 +23,35 @@ footer {
 }
 
 .w {
-    background-image: url('https://raw.githubusercontent.com/aliasisnekko/Interactive-Drums/site/images/tom1.png');
+    background-image: url('/Projects/DrumLine/images/tom1.png');
 }
 
 .a {
-    background-image: url('https://raw.githubusercontent.com/aliasisnekko/Interactive-Drums/site/images/tom2.png');
+    background-image: url('/Projects/DrumLine/images/tom2.png');
 }
 
 .s {
-    background-image: url('https://raw.githubusercontent.com/aliasisnekko/Interactive-Drums/site/images/tom3.png');
+    background-image: url('/Projects/DrumLine/images/tom3.png');
 }
 
 .d {
-    background-image: url('https://raw.githubusercontent.com/aliasisnekko/Interactive-Drums/site/images/tom4.png');
+    background-image: url('/Projects/DrumLine/images/tom4.png');
 }
 
 .j {
-    background-image: url('https://raw.githubusercontent.com/aliasisnekko/Interactive-Drums/site/images/crash.png');
+    background-image: url('/Projects/DrumLine/images/crash.png');
 }
 
 .k {
-    background-image: url('https://raw.githubusercontent.com/aliasisnekko/Interactive-Drums/site/images/snare.png');
+    background-image: url('/Projects/DrumLine/images/snare.png');
 }
 
 .l {
-    background-image: url('https://raw.githubusercontent.com/aliasisnekko/Interactive-Drums/site/images/kick.png');
+    background-image: url('/Projects/DrumLine/images/kick.png');
 }
 
 .set {
-    margin: 10% auto;
+    margin: 50px auto;
 }
 
 .game-over {
